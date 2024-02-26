@@ -6,6 +6,7 @@ What I know so far:
 - Updated copies of LBP2 include a `CROSSDIR` directory which contain the Cross Controller application as a pkg, with a signiture and icon. They are all called `DATA000`
   - `CROSSDIR` is not apart of `USRDIR`
 - You can mix and match `CROSSDIR`s between LBP2 games (Including LBP HUB, which lacks a `CROSSDIR`)
+  - LBP3 lacks an option to start Cross-Controller, however since it's based off of LBP2, functionality for it may still exist unused
 - The Cross-Controller application requires a network check in order to function. It sends a request to a hardcoded URL (`lbpvita.online.scee.com`) to check internet connectivity, instead of using the system (Unknown reason why, possible leftover?)
   - The URL for checking internet connectivity is followed by sessionMaster (The state appears to be `true`, setting to false doesn't appear to change anything)
   - This request is a DNS request. A DNS server can be set up to redirect to a different site that isn't dead to get it to work, like google.com.
