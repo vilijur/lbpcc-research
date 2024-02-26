@@ -1,8 +1,8 @@
 What I know so far:
 
 - Cross-Controller applications are locked to specific title IDs for the game they come with
- - This title ID is included in the application files (it does not appear to be part of LBP2)
-  - You can find a list [here](https://github.com/vilijur/lbpcc-research/tree/main/TitleIDs)
+  - This title ID is included in the application files (it does not appear to be part of LBP2)
+   - You can find a list [here](https://github.com/vilijur/lbpcc-research/tree/main/TitleIDs)
 - Updated copies of LBP2 include a CROSSDIR which contain the Cross Controller application as a pkg, with a signiture and icon. They are all called `DATA000`
 - You can mix and match CROSSDIRS between LBP2 games (Including LBP HUB, which lacks a CROSSDIR)
 - The Cross-Controller application requires a network check in order to function. It sends a request to a hardcoded URL (lbpvita.online.scee.com) to check internet connectivity, instead of using the system (Unknown reason why, possible leftover?)
