@@ -7,10 +7,13 @@ What I know so far:
 - You can mix and match CROSSDIRS between LBP2 games (Including LBP HUB, which lacks a CROSSDIR)
 - The Cross-Controller application requires a network check in order to function. It sends a request to a hardcoded URL (lbpvita.online.scee.com) to check internet connectivity, instead of using the system (Unknown reason why, possible leftover?)
   - The URL for checking internet connectivity is followed by sessionMaster (The state appears to be `true`, setting to false doesn't appear to change anything)
+  - This request is a DNS request, a DNS server can be set up to redirect to a different site that isn't dead to get it to work, like google.com.
+    - Ideally, it would be possible to skip the network check entirely. Maybe a plugin can be used to modify memory?
 - LBP HUB has Cross-Controller functionality, however lacks a CROSSDIR. This causes an error when trying to install the application (C0-14347-9)
   - You can add a CROSSDIR from another LBP2 copy, however the application downloaded won't connect to LBP HUB due to a difference in Title IDs
   - If you were to change the Title ID of LBP HUB to that of the Title ID of the Cross-Controller application you have installed, you can start Cross-Controller on LBP HUB!
     - A game would have to be sacrified to being unplayable on the PS3 until you give HUB its orginal Title ID back. You may also need to rebuild your database for the modification to take effect.
       - Ideally, it would be possible to have a titleid.txt file with the title id of LBP HUB
 - The Title ID in the application's file is encrypted for some reason (encryption method unknown, could be general vita encryption)
+  - It may be a good idea to remove this arbitary limitation at some point. Research would need to be done into how the application works to make a patch like this.
 
