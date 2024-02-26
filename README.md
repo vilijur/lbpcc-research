@@ -1,5 +1,5 @@
 # LittleBigPlanet™2 Cross-Controller Research
-This repository contains research on the inner workings of how the Cross-Controller application and DLC works for LittleBigPlanet™2. It is a work-in-progress while I figure out what's what.
+This repository contains research on the inner workings of how the Cross-Controller application and DLC for LittleBigPlanet™2 works. It is a work-in-progress while I figure out what's what.
 
 This readme covers the main issue with the Cross-Controller app which served as motivation to dig deep into the code to figure out what's going on and how everything works. There are also notes containing the current information I have gathered on Cross-Controller's inner workings.
 
