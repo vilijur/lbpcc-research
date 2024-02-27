@@ -22,6 +22,7 @@ What I know so far:
       - It doesn't appear to like when it's modified to use a different Title ID (won't enter the Cross-Controller menu on LBP2, causes loop)
       - However a new `titleid.txt` can be applied using rePatch, so that's handy (`rePatch/TITLEID/output/titleid.txt`)
     - These appear to be 18 bytes when decrypted
+      - Doesn't seem like filesize matters?
   - Not sure how to modify and re-encrypt this file... 
   - It may be a good idea to remove this arbitary limitation at some point. Research would need to be done into how the application works to make a patch like this.
   - The Title ID can be found in `/output/titleid.txt`
