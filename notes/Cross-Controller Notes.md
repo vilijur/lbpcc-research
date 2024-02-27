@@ -16,7 +16,11 @@ What I know so far:
   - If you were to change the Title ID of LBP HUB to that of the Title ID of the Cross-Controller application you have installed, you can start Cross-Controller on LBP HUB!
     - A game would have to be sacrified to being unplayable on that PS3 until you give HUB its orginal Title ID back. You may also need to rebuild your database for the modification to take effect.
       - Ideally, it would be possible to have a `titleid.txt` file with the title id of LBP HUB
-- The Title ID in the application's file is encrypted for some reason (encryption method unknown, could be general vita encryption)
+- The Title ID in the application's file is encrypted (General Vita Encryption)
+  - The decrypted contents of `titleid.txt` is the Title ID of the version of LBP Vita it is based off of, and the Title ID for the LBP2 game to work with (This is the one the application comes with)
+    - An example would be `PCSF00021BCES01086`
+    - These appear to be 18 bytes when decrypted
+  - Not sure how to modify and re-encrypt this file... 
   - It may be a good idea to remove this arbitary limitation at some point. Research would need to be done into how the application works to make a patch like this.
   - The Title ID can be found in `/output/titleid.txt`
     - Could it be possible that the game generates the encrypted Title ID? Food for thought.
