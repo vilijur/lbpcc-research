@@ -19,7 +19,7 @@ What I know so far:
 - The Title ID in the application's file is encrypted (General Vita Encryption)
   - The decrypted contents of `titleid.txt` is the Title ID of the version of LBP Vita it is based off of, and the Title ID for the LBP2 game to work with (This is the one the application comes with)
     - An example would be `PCSF00021BCES01086`
-     - The game doesn't appear to like when it's modified to use a different Title ID (won't enter the Cross-Controller menu on LBP2, causes loop)
+      - The game doesn't appear to like when it's modified to use a different Title ID (won't enter the Cross-Controller menu on LBP2, causes loop)
     - These appear to be 18 bytes when decrypted
   - Not sure how to modify and re-encrypt this file... 
   - It may be a good idea to remove this arbitary limitation at some point. Research would need to be done into how the application works to make a patch like this.
