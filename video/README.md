@@ -2,7 +2,7 @@
 
 This folder contains videos of my experiments, with YouTube links to each video.
 
-Currently, one video have been uploaded:
+Currently, two videos have been uploaded:
 
 | Title | Filename | Link (YouTube) | Link (GitHub RAW) | Description/Note | 
 |-------|----------|----------------|-------------------|-------------|
