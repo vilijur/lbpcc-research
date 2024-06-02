@@ -27,4 +27,7 @@ What I know so far:
   - ~~Not sure how to modify and re-encrypt this file...~~ re-encrypting is not required (yay rePatch)
   - It may be a good idea to remove this arbitary limitation at some point. Research would need to be done into how the application works to make a patch like this.
   - The Title ID can be found in `/output/titleid.txt`
-    - Could it be possible that the game generates the encrypted Title ID? Food for thought.
+    - Could it be possible that the game generates the Title ID? Food for thought.
+ - Cross-Controller doesn't have it's own save data, instead relying on a file called `cross_controller_inventory.raw` to populate the player's inventory
+   - Unsurprisingly, zeroing this file gives you nothing to work with in your inventory
+   - I wonder if it's possible to modify this file to give all items in the game (assuming we don't already get everything)
